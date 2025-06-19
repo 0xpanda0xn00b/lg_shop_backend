@@ -1,8 +1,8 @@
 FROM node:18-alpine
-RUN apt update && apt install -y \
-    build-essential \
-    libvips-dev \
-    && rm -rf /var/lib/apt/lists/*
+#RUN apt update && apt install -y \
+#    build-essential \
+#    libvips-dev \
+#    && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 RUN npm install -g npm@9
 COPY package*.json ./
