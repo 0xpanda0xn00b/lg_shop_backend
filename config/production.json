@@ -24,14 +24,6 @@
         "showOutOfStockProduct": false
     },
     "system": {
-        "theme": "friday",
-        "extensions": [
-            {
-                "name": "productComment",
-                "resolve": "extensions/productComment",
-                "enabled": true,
-                "priority": 10 
-            }
-        ]
+        "theme": "friday"
     }
 }
