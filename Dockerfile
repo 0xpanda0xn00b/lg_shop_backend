@@ -15,10 +15,6 @@ COPY config ./config
 COPY translations ./translations
 RUN npm install --verbose
 RUN npm run build --verbose
-RUN npm run user:create -- \
-    --email "$ADMIN_EMAIL" \
-    --password "$ADMIN_PASSWORD" \
-    --name "$ADMIN_NAME"
 EXPOSE 80
 CMD ["npm", "run", "start"]
 #CMD ["tail", "-f", "/dev/null"]
