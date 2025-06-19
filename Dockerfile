@@ -16,5 +16,7 @@ COPY translations ./translations
 RUN npm install --verbose
 RUN npm run build --verbose
 EXPOSE 80
-CMD ["npm", "run", "start"]
+#CMD ["npm", "run", "start"]
 #CMD ["tail", "-f", "/dev/null"]
+COPY entrypoint.sh .
+ENTRYPOINT ["./entrypoint.sh"]
