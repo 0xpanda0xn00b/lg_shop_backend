@@ -18,5 +18,5 @@ RUN npm run build --verbose
 EXPOSE 80
 #CMD ["npm", "run", "start"]
 #CMD ["tail", "-f", "/dev/null"]
-#COPY entrypoint.sh .
+COPY entrypoint.sh .
 ENTRYPOINT ["./entrypoint.sh"]
