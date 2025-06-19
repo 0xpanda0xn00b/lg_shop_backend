@@ -24,7 +24,7 @@
         "showOutOfStockProduct": false
     },
     "system": {
-        "theme": "eve",
+        "theme": "friday",
         "extensions": [
             {
                 "name": "productComment",
