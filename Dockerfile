@@ -1,5 +1,5 @@
 FROM node:18-alpine
-RUN apt-get update && apt-get install -y \
+RUN apt update && apt install -y \
     build-essential \
     libvips-dev \
     && rm -rf /var/lib/apt/lists/*
