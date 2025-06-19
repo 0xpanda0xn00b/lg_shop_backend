@@ -1,29 +1,30 @@
 {
-    "shop" : {
-        "currency": "DZD",
-        "language": "ar-DZ",
-        "weightUnit": "kg"
-    },   
-    "catalog": {
-        "product": {
-            "image": {
-                "thumbnail": {
-                    "width": 100,
-                    "height": 100
-                },
-                "listing": {
-                    "width": 300,
-                    "height": 300
-                },
-                "single": {
-                    "width": 500,
-                    "height": 500
-                }
-            }
+  "shop": {
+    "currency": "DZD",
+    "language": "ar-DZ",
+    "weightUnit": "kg"
+  },
+  "catalog": {
+    "product": {
+      "image": {
+        "thumbnail": {
+          "width": 100,
+          "height": 100
         },
-        "showOutOfStockProduct": false
+        "listing": {
+          "width": 300,
+          "height": 300
+        },
+        "single": {
+          "width": 500,
+          "height": 500
+        }
+      }
     },
-    "system": {
-        "theme": "friday"
-    }
+    "showOutOfStockProduct": false
+  },
+  "system": {
+    "theme": "friday",
+    "extensions": []
+  }
 }
